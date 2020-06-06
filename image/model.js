@@ -6,6 +6,8 @@ const Image = db.define(
   {
     url: Sequelize.STRING,
     title: Sequelize.STRING
+  }, {
+  timestamps: false,
   }
 )
 
